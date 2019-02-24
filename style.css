@@ -9,12 +9,11 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 nav {
-	height: 50px;
-    border-bottom: 1px solid #363636;
+	height: 60px;
 }
 
 .navbar-nav h6 {
-	padding-left: 15px;
+	padding-left: 8px;
     color: #363636;
     font-size: 20px;
     font-family: "Raleway";
@@ -30,9 +29,9 @@ nav .navbar-brand {
         left: 50%;
         transform: translateX(-50%);
         padding-top: 50%;
-        padding-bottom: 50%;
+        padding-bottom: 51%;
     }
 .karysel {
-    width: 70%;
-    transform: translateX(23%);
+    width: 100%;
+
 }
