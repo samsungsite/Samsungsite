@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body {
+     margin: 0;
+     padding: 0;
+      }
+.background {
+    background-color: black;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav img {
+     width: 210px; 
+     height: 154px;
+}
+.navbar-nav h6 {
+	padding-left: 8px;
+    color: grey;
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: 300;
+
+}
+.navbar-nav h5 {
+    padding-left: 8px;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: bold;
+  background: linear-gradient(45deg, #061599 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  }
+
+.navbar-nav h6:hover {
+    color: #4169E1;
+        font-weight: bold;
+}
+
+nav .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+.bd-example {
+    opacity: .9;     /*Прозрачность всей страницы*/
+}
+.bd-example h5 {
+    font-family: "Lato";
+    font-size: 35px;
+    text-shadow: -5px -5px 0px #071abf;
+    background: radial-gradient(#9DA8A9 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+}
+
+.events h6 {
+    display: block; 
+    margin: 0 auto;
+    font-family: "Lato";
+    font-size: 35px;
+    text-shadow: -5px -5px 0px #071abf;
+    background: radial-gradient(#9DA8A9 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+}
+
+
+iframe {
+    width: 490px;
+    height: 281px;
+    float: left;
+    margin-left: 26px;
+    display: inline-block;
+}
+
+.video {
+    padding-bottom: 280px;
+}
+
+
+
+
+
+@media screen and (min-width:150px) and (max-width:800px) {
+    iframe {
+    width: 490px;
+    height: 281px;
+    margin-left: 0px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+canvas {
+     position: fixed;
+    z-index: -2;
+ }
+
+
+.write-us {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.write-h1 h1 {
+   border: 3px solid #071abf;
+   border-radius: 62px;
+   width: 240px;
+   height: 62px;
+   color: #071abf;
+   transition: 0.7s;
+}
+
+.write-h1 h1:hover {
+    background-color: #071abf;
+    color: white;
+    transition: 0.7s;
+}
+
