@@ -14,8 +14,16 @@
     <title>Samsung</title>
   </head>
   <body class="background"> 
-
-    <canvas class="canvas"></canvas>
+      <div class="jumbotron">
+  <h1 class="display-4">Привет, это интерпретация сайта Samsung, разработаный парнем 14 лет для <a href="https://www.samsung.com">Samsung</a> / Луцюк Дмитрий</h1>
+  <p class="lead">Сайт в beta версии</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="https://www.instagram.com/diman.js" role="button"><img src="Instagram_icon.png" width="30px" height="30px"alt=""> Instagram</a>
+    <a class="btn btn-primary btn-lg" href="mailto:dimaconsi@gmail.com" role="button"><img src="Gmail_icon.png" width="30px" height="30px"alt=""> Gmail</a>
+  </p>
+</div>
+    <canvas class="canvas"></canvas> <!--Фон партиклов-->
 
       <!--Navbar-->
   	<nav class="navbar navbar-expand-lg navbar-light">
@@ -25,9 +33,20 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="smartphones.html"><h6>Smartphones</h6></a>
-      <a class="nav-item nav-link" href="tablets.html"><h6>Tablets</h6></a>
-      <a class="nav-item nav-link" href="laptops.html"><h6>Laptops</h6></a>
+            <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h6>
+          Smartphones
+       </h6> </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.samsung.com/global/galaxy/galaxy-s10/">Galaxy S10</a>
+          <a class="dropdown-item" href="https://www.samsung.com/global/galaxy/galaxy-a80/">Galaxy A80</a>
+          <a class="dropdown-item" href="https://www.samsung.com/ua/smartphones/galaxy-m10-m105/SM-M105GDAGSEK/">Galaxy M10</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Search other smartphones on Samsung.com</a>
+        </div>
+           </li>
+      <a class="nav-item nav-link" href="odyssey.html"><h6>Odyssey</h6></a>
+      <a class="nav-item nav-link" href="innovations.html"><h6>Innovations</h6></a>
       <li class="nav-item dropdown">
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5 id="SignIn">
         Sign in</h5>
@@ -55,6 +74,7 @@
 </form>
 </a>
 
+                  <!--Окончяние form login-->
        
 
         </div>
@@ -105,30 +125,37 @@
 
 
 
-    <canvas class="canvas"></canvas>
 
                                         <!--Events-->
+
+
 <br>
 <br>
 <div class="events">
   <h6>Events</h6>
 </div>
-  <div class="video"> 
-    
-<iframe width="100%" height="250" src="https://www.youtube.com/embed/sbQZ0Mrpp80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="100%" height="250" src="https://www.youtube.com/embed/m3KkbPQwCMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="100%" height="250" src="https://www.youtube.com/embed/X3LVk0i6bY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <iframe width="962" height="541" src="https://www.youtube.com/embed/OcC6NCBRsKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm">
+      <iframe width="962" height="541" src="https://www.youtube.com/embed/aYliwRh7QZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm">
+      <iframe width="962" height="541" src="https://www.youtube.com/embed/Tol9KBJBZt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 <br>
 <div class="write-us">
   <div class="write-h1" align="center">
-  <a href="mailto:lenovodima228@gmail.com" style="text-decoration: none;"><h1>Write us</h1></a>
+  <a href="mailto:dimaconsi@gmail.com" style="text-decoration: none;"><h1>Write us</h1></a> <!--Футер сайта, кнопка-->
   </div>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -147,14 +174,17 @@
       $(document).ready(function() {
         $('.canvas').particles({
           connectParticles: true,
-          color: '#071abf',
-          size: 3,
-          maxParticles: 70,
+          color: '#ffffff',
+          size: 4,
+          maxParticles: 61,
           speed: 1.3
         });
       });
     </script>
 
+
+
+ 
 
 </body>
 </html>

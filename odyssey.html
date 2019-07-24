@@ -14,7 +14,15 @@
     <title>Samsung</title>
   </head>
   <body class="background"> 
-
+      <div class="jumbotron">
+  <h1 class="display-4">Привет, это интерпретация сайта Samsung, разработаный парнем 14 лет для <a href="https://www.samsung.com">Samsung</a> / Луцюк Дмитрий</h1>
+  <p class="lead">Сайт в beta версии</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="https://www.instagram.com/diman.js" role="button"><img src="Instagram_icon.png" width="30px" height="30px"alt=""> Instagram</a>
+    <a class="btn btn-primary btn-lg" href="mailto:dimaconsi@gmail.com" role="button"><img src="Gmail_icon.png" width="30px" height="30px"alt=""> Gmail</a>
+  </p>
+</div>
     <canvas class="canvas"></canvas> <!--Фон партиклов-->
 
       <!--Navbar-->
@@ -25,7 +33,18 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="smartphones.html"><h6>Smartphones</h6></a>
+            <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h6>
+          Smartphones
+       </h6> </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.samsung.com/global/galaxy/galaxy-s10/">Galaxy S10</a>
+          <a class="dropdown-item" href="https://www.samsung.com/global/galaxy/galaxy-a80/">Galaxy A80</a>
+          <a class="dropdown-item" href="https://www.samsung.com/ua/smartphones/galaxy-m10-m105/SM-M105GDAGSEK/">Galaxy M10</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Search other smartphones on Samsung.com</a>
+        </div>
+           </li>
       <a class="nav-item nav-link" href="odyssey.html"><h6>Odyssey</h6></a>
       <a class="nav-item nav-link" href="innovations.html"><h6>Innovations</h6></a>
       <li class="nav-item dropdown">
@@ -54,6 +73,7 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </a>
+
                   <!--Окончяние form login-->
        
 
@@ -66,6 +86,8 @@
 
 
 
+
+<br>
 <div class="write-us">
   <div class="write-h1" align="center">
   <a href="mailto:dimaconsi@gmail.com" style="text-decoration: none;"><h1>Write us</h1></a> <!--Футер сайта, кнопка-->
@@ -94,7 +116,7 @@
           connectParticles: true,
           color: '#ffffff',
           size: 4,
-          maxParticles: 70,
+          maxParticles: 61,
           speed: 1.3
         });
       });
