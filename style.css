@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+      background-image: url(zastavka.webp);
+     margin: 0;
+     padding: 0;
+      }
+.background {                        /*Задний фон и его значения для партиклов*/
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mycard {
+  background-color: #e9ecef;
+  width: 100%;
+  max-height: 400px;
+}
+
+.mycard h1 {
+  padding-left: 15%;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.mycard hr {
+  border: 1px solid grey;
+  width: 20%;
+}
+.mycard img {
+  height: 35px;
+  width: 35px;
+}
+.lead {
+  padding-left: 15%;
+}
+.navbar-nav h6 {
+	padding-left: 8px;
+    color: #0c23a1;
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: 300;
+    transition: 0.7s;
+}
+
+.navbar-nav h5 {
+    padding-left: 8px;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: bold;
+
+    color: #0c23a1;
+
+}
+
+.navbar-nav h6:hover {
+    color: #0000ff;
+    transition: 0.7s;
+}
+
+ .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    }
+
+
+.bd-example h5 {
+    font-family: "Lato";
+    font-size: 35px;
+    text-shadow: -5px -5px 0px #071abf;
+    background: radial-gradient(#9DA8A9 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+}
+
+.events h6 {
+    display: block; 
+    margin: 0 auto;
+    font-family: "Lato";
+    font-size: 35px;
+    text-shadow: -5px -5px 0px #071abf;
+    background: radial-gradient(#9DA8A9 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+@media (min-width:1025px) {
+.video {
+    max-width: 100%;
+    padding-left: 2%;
+}
+}
+
+
+
+
+
+.write-us {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.write-h1 h1 {
+   border: 3px solid #071abf;
+   border-radius: 62px;
+   width: 240px;
+   height: 62px;
+   color: #071abf;
+   transition: 0.7s;
+}
+
+.write-h1 h1:hover {
+    background-color: #071abf;
+    color: white;
+    transition: 0.7s;
+}
+
+
+
+#example .new{opacity: 0;}
+#example .div_opacity{
+  -webkit-transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -ms-transition: opacity .1s ease-in-out;
+  -o-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+  opacity: 1;}
